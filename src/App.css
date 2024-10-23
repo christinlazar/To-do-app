@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -36,3 +36,204 @@
     transform: rotate(360deg);
   }
 }
+
+.Main{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+  height: 50px;
+  background: #b97272;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsla(147, 84%, 20%, 0.995);
+}
+.maindiv{
+  padding-top: 6rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100vw;
+}
+.app {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compdiv, .penddiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 26%;
+  color:white;
+  
+}
+
+.app .mainHeading h1 {
+  text-align: center;
+}
+
+.app h1,
+h2 {
+  color: white;
+}
+
+.app .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .input {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.app .input input {
+  width: 100%;
+  height: 1.6em;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.app i {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: 900;
+  color: grey;
+  margin-right: 5px;
+}
+.app .todos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.app .todos .todo {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+.app .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app .todos .todo .left p {
+  margin-left: 3px;
+  font-size: medium;
+  font-weight: 700;
+  font-style: normal;
+  color: grey;
+}
+
+
+.taskhead{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+.inputDiv{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* background-color: rgb(9, 94, 66); */
+  background-image: url("C:\Users\User\Downloads\bright-green-yellow-torn-paper_23-2147734419.jpg");
+  width: 100%;
+  height:100vh;
+  padding-top: 200px;
+}
+.input{
+  height:35px;
+  width: 300px;
+  border-radius: 15px;
+  border-color: rgb(255, 253, 253);
+  border:2px solid rgb(246, 243, 243);
+}
+
+.btn{
+  height:37px;
+  width: 50px;
+  border-radius:15px;
+  border:1px solid rgb(9, 9, 9);
+  background:rgb(57, 56, 56);
+  cursor: pointer; 
+  color: rgb(252, 251, 251);
+  font-size: 12px;
+}
+/* .todo{
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+.todo{
+  color:white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:20px;
+}
+
+.heading{
+  color: white;
+  margin-left:90px;
+
+}
+
+.todoDiv2{
+  display: flex;
+  justify-content: space-between;
+  border: .5px solid white; 
+  width: 100%;
+   border-radius:5px; 
+}
+
+.comp{
+  color:white;
+}
+.pend{
+  color:white;
+}
+.todo, .checkbox {
+  margin-right: 10px; 
+}
+.fa-trash {
+  color: white;
+  margin-right: 0px; 
+}
+@media (max-width:992px) {
+  .inputDiv{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+}
+.edit{
+  color: white;
+}
+

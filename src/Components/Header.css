@@ -1,0 +1,11 @@
+
+.header{
+    background:black;
+    color: white;
+    height: 40px;
+    padding: 50px;
+}
+
+.hide-tooltip{
+    display: none;
+}
